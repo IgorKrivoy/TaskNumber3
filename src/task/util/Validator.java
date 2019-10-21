@@ -35,7 +35,7 @@ public class Validator {
         return (a + b > c) && (a + c > b) && (b + c > a);
     }
 
-    public boolean ContinueConfirm(String str) {
+    public boolean continueConfirm(String str) {
         String answer = str.toUpperCase();
         return answer.equals("YES") || answer.equals("Y");
     }

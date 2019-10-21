@@ -7,32 +7,32 @@ import java.util.List;
 
 public class Output {
 
-    public void InputInfo() {
+    public void inputInfo() {
         System.out.println("Введите параметры Name, sideA, sideB, sideC" +
                 " через запятую: ");
     }
 
-    public void CreateNewTriangleInfo() {
+    public void createNewTriangleInfo() {
         System.out.println("Попытка создания треугольника");
     }
 
-    public void ErrorCreateTriangleInfo() {
+    public void errorCreateTriangleInfo() {
         System.out.println("Ошибка создания!! Некорректно введены данные");
     }
 
-    public void AddToListInfo() {
+    public void addToListInfo() {
         System.out.println("Добавление треугольника в массив");
     }
 
-    public void ErrorAddToListInfo() {
+    public void errorAddToListInfo() {
         System.out.println("Ошибка добавления треугольника в массив");
     }
 
-    public void ErrorIsTriangleExist() {
+    public void errorIsTriangleExist() {
         System.out.println("Треугольника с такими сторонами не существует!!");
     }
 
-    public void OutPutSortCollection(List<TriangleModel> triangleList){
+    public void outPutSortCollection(List<TriangleModel> triangleList){
         System.out.println("============= Triangles list: ===============");
         Collections.sort(triangleList,Collections.reverseOrder());
         for(TriangleModel triangle : triangleList){

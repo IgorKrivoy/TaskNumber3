@@ -4,7 +4,7 @@ import task.model.TriangleModel;
 
 public class Service {
 
-    public void AreaOfTriangle(TriangleModel triangle) {
+    public void areaOfTriangle(TriangleModel triangle) {
         double p;
         float a,b,c;
         a = triangle.getSideA();

@@ -13,9 +13,9 @@ public class Main {
     public static void main(String[] args) {
         for(;;) {
             Controller controller = new Controller();
-            controller.AddToListNewTriangle(triangleList);
-            controller.SortCollection(triangleList);
-            if(!controller.ToRetry()){
+            controller.addToListNewTriangle(triangleList);
+            controller.sortCollection(triangleList);
+            if(!controller.toRetry()){
                 break;
             }
         }
